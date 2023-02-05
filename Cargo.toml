@@ -1,0 +1,10 @@
+[package]
+name = "comp_test"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+path = "src/lib/lib.rs"
+
+[dependencies.comp_macros]
+path = "comp_macros"
